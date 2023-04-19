@@ -8,15 +8,15 @@
 body {}
 
 a {
-    color: #000000;
+    color: #300646;
     text-decoration: none;
 }
 
 header {
     background-color: #AC43C7;
     width: 100%;
-    position:fixed ;
-    top:0;
+    position: fixed;
+    top: 0;
     height: 51px;
 }
 
@@ -89,7 +89,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding-top: 50px;
 }
 
 /*сетка для тем. уроков*/
@@ -105,6 +105,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    padding-top: 50px;
 }
 
 /*розовый блок (1 урок)*/
@@ -131,6 +132,7 @@ header {
     font-size: 15px;
     padding-left: 100px;
     margin-top: -35px;
+    color: #3c025b;
 }
 
 /*линия сбоку от номера*/
@@ -187,15 +189,28 @@ header {
 
     transition: 0.8s ease;
 }
+
 /*картинка в розовом  блоке*/
-.img_team{
+.img_team {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
-    width: 70px;
+    width: 75px;
 
 }
+.inscr_team {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: 400;
+    padding-top: 18px;
+    font-size: 20px;
+
+}
+
 .block_team:hover {
     background-color: #b09ab3;
     color: #E8DDE9;
@@ -208,7 +223,7 @@ header {
     align-items: center;
     padding-left: 13px;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 60px;
     text-indent: 20px;
 }
 
@@ -223,9 +238,10 @@ header {
     align-items: center;
 
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 70px;
     text-indent: 20px;
 }
+
 .menu_text_spisok {
     font-family: 'Inter', sans-serif;
     font-family: 'Noto Sans', sans-serif;
@@ -234,7 +250,7 @@ header {
     margin: 7px;
     max-width: 355px;
     color: #D9D9D9;
-    
+
 }
 
 /* Кнопка выпадающего списка */
@@ -260,8 +276,8 @@ header {
 .dropdown {
     position: relative;
     display: inline-block;
-    
-    
+
+
 }
 
 /* Выпадающее содержимое (скрыто по умолчанию) */
@@ -292,6 +308,17 @@ header {
 .show {
     display: block;
 }
-.niz{
+
+.niz {
     font-weight: 400px;
+}
+
+.team_lesson>p {
+    text-decoration: none;
+}
+.wrapper_team_urok{
+    max-width: 345px;
+}
+.video{
+    padding-left: 7PX;
 }
