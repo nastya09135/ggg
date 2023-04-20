@@ -276,6 +276,8 @@ header {
 .dropdown {
     position: relative;
     display: inline-block;
+    padding-top: 10px;
+    line-height: 1.7;
 
 
 }
@@ -320,5 +322,5 @@ header {
     max-width: 345px;
 }
 .video{
-    padding-left: 7PX;
+    padding-left: 7px;
 }

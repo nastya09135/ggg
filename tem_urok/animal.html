@@ -12,6 +12,7 @@
             padding-left: 10px;
             margin-left: auto;
             margin-right: auto;
+           
         }
 
         body {
@@ -86,6 +87,9 @@
 
         .accordion__item:not(.accordion__item_show) .accordion__body {
             display: none;
+        }
+        input{
+            font-size: 15px;
         }
     </style>
     <script>
@@ -211,8 +215,13 @@
                     </div>
                 </div>
             </div>
+           
+         
         </div>
-
+ <video class="video"  width="350" height="300" controls="controls" id="video"  autoplay>
+                <source src="../mp4/cat.mp4" id="source">
+               
+            </video>
 <script>
     var videos = [
     "../mp4/cat.mp4",
@@ -237,10 +246,7 @@ function videoChange(id) {
     video.pause();
 }
 </script>
-        <video class="video"  width="350" height="300" controls="controls" id="video">
-            <source src="../mp4/cat.mp4" id="source">
-        </video>
-
+        
 
         <script>
             new ItcAccordion(document.querySelector('.accordion'), {
